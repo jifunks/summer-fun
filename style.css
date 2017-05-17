@@ -177,7 +177,7 @@ h1 {
   
 #jetski {
   position: absolute;
-  bottom: 25px;
+  bottom: 36px;
   z-index: 5;
   -moz-transition: transform 1s;
   -webkit-transition: transform 1s;
