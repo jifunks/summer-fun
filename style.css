@@ -1,0 +1,331 @@
+body {
+  margin:0;
+  padding:0;
+  background-color: #245F91;
+  overflow-x: hidden;
+}
+
+#textcontainer {
+  position: relative;
+  text-align: center;
+  -ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Safari */
+  transform: rotate(10deg);
+  z-index: 6;
+}
+
+#rope1 {
+  position: absolute;
+  top: -12px;
+  right: 104px;
+  width: 12px;
+  height: 130px;
+  background-image: url('img/rope.png');
+  background-size: 170% 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  z-index: 6;
+}
+#rope2 {
+  position: absolute;
+  top: -42px;
+  right: 471px;
+  width: 12px;
+  height: 130px;
+  background-image: url('img/rope.png');
+  background-size: 170% 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  z-index: 6;
+}
+
+#hangingsign {
+  position: absolute;
+  top: 75px;
+  right: 100px;
+  text-align: center;
+  border-width: 3px;
+  border-color: #e1c473;
+  background-image: url("img/cork.jpg");
+  -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  -ms-transform: rotate(5deg); /* IE 9 */
+  -webkit-transform: rotate(5deg); /* Safari */
+  transform: rotate(5deg);
+  z-index:5;
+}
+
+
+h1, h2 {
+  color: #fff;
+  padding:0;
+  margin:0;
+}
+
+#tildecontainer h3 {
+  padding:0;
+  margin:0;
+  position:relative;
+  font-family: 'Courier New', monospace;
+  font-size: 1.2em;
+	background-color: #E0B0FF;
+  color: transparent;
+  text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+h2 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 2.8em;
+  margin-bottom: -75px;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 6em;
+  background: url(img/halftone.jpg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#sky {
+  width: 100%;
+  height: 85%;
+  position: absolute;
+  bottom: 200px;
+  /*background: #76d7ff;*/
+  background: #356399; /* Old browsers */
+  background: -moz-linear-gradient(top, #356399 0%, #76d7ff 78%, #76d7ff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #356399 0%,#76d7ff 78%,#76d7ff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #356399 0%,#76d7ff 78%,#76d7ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356399', endColorstr='#76d7ff',GradientType=0 ); /* IE6-9 */
+  z-index: -5;
+}
+
+#wavecontainer1 {
+  width: 100%;
+  height: 95%;
+  position: absolute;
+  bottom: 150px;
+  z-index: 0;
+}
+
+#circlecontainer1 {
+  width: 200%;
+  position: absolute;
+  bottom: 0;
+  left: -150px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.wavecircle1 {
+  position: relative;
+  bottom:0;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: #76d7ff;
+  border: 30px solid #76d7ff;
+  margin-right: -20px;
+  display: inline-block;
+  z-index: -1;
+}
+
+
+#wavecontainer2 {
+  width: 100%;
+  height: 95%;
+  position: absolute;
+  bottom: 75px;
+  z-index: -1;
+}
+
+#circlecontainer2 {
+  width: 200%;
+  position: absolute;
+  bottom: 0;
+  left: -150px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.wavecircle2 {
+  position: relative;
+  bottom:0;
+  width: 100px;
+  height: 100px;
+  background: #3987c9;
+  border: 30px solid #3987c9;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: -20px;
+}
+
+  
+#jetski {
+  position: absolute;
+  bottom: 25px;
+  z-index: 5;
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  transition: transform 1s;
+}
+
+#jetski:hover{
+  transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+}
+
+.cloud {
+  background: #fff;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
+  
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  
+  -webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+
+  height: 120px;
+  position: relative;
+  width: 350px;
+
+  top: 120px;
+  left: 45px;
+
+  z-index: 3;
+}
+
+
+.cloud:after, .cloud:before {
+	background: #fff;
+	content: '';
+	position: absolute;
+	z-index: 2;
+}
+
+.cloud:after {
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+
+	height: 100px;
+	left: 50px;
+	top: -50px;
+	width: 100px;
+}
+
+.cloud:before {
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	border-radius: 200px;
+
+	width: 180px;
+	height: 180px;
+	right: 50px;
+	top: -90px;
+}
+
+#cloudwrap {
+  bottom: 0;
+  left: 0;
+  padding-top: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#tildecontainer {
+  position: absolute;
+  top: 25px;
+  z-index:6;
+  text-align: center;
+  width: 100%;
+}
+
+#sun { 
+  position: absolute;
+	top: 45px;
+	left: 75px;
+	right: 0;
+	bottom: 0;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;    
+	background: white;
+	opacity: 0.9;            
+	box-shadow: 0px 0px 40px 15px white;  
+}
+
+/* cloud animation */
+
+@-webkit-keyframes animateCloud {
+	0% {
+		margin-left: -750px;
+	}
+	100% {
+		margin-left: 100%;
+	}
+}
+
+@-moz-keyframes animateCloud {
+	0% {
+		margin-left: -750px;
+	}
+	100% {
+		margin-left: 100%;
+	}
+}
+
+@keyframes animateCloud {
+	0% {
+		margin-left: -750px;
+	}
+	100% {
+		margin-left: 100%;
+	}
+}
+
+
+#c1 {
+	-webkit-animation: animateCloud 42s linear infinite;
+	-moz-animation: animateCloud 42s linear infinite;
+	animation: animateCloud 42s linear infinite;
+}
+
+#c2 {
+	-webkit-animation: animateCloud 30s linear infinite;
+	-moz-animation: animateCloud 30s linear infinite;
+	animation: animateCloud 30s linear infinite;
+	
+	-webkit-transform: scale(0.65);
+	-moz-transform: scale(0.65);
+	transform: scale(0.65);
+}
+
+#c3 {
+	-webkit-animation: animateCloud 20s linear infinite;
+	-moz-animation: animateCloud 20s linear infinite;
+	animation: animateCloud 20s linear infinite;
+	
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+}
