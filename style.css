@@ -174,22 +174,6 @@ h1 {
   margin-right: -20px;
 }
 
-  
-#jetski {
-  position: absolute;
-  bottom: 36px;
-  z-index: 5;
-  -moz-transition: transform 1s;
-  -webkit-transition: transform 1s;
-  transition: transform 1s;
-}
-
-#jetski:hover{
-  transform: rotate(-360deg);
-  -moz-transform: rotate(-360deg);
-  -webkit-transform: rotate(-360deg);
-}
-
 .cloud {
   background: #fff;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
